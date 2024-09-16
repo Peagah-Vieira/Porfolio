@@ -13,6 +13,7 @@ import './App.css';
 import './style.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarLayout from './Layouts/NavbarLayout';
+import FooterLayout from './Layouts/FooterLayout';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <FooterLayout />
       </div>
     </Router>
   );
