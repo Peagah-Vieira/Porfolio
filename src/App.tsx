@@ -5,11 +5,13 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import './App.css';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Resume from './Pages/Resume';
+import './App.css';
+import './style.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
