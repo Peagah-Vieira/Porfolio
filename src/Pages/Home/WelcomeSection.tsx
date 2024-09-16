@@ -12,20 +12,18 @@ export default function WelcomeSection() {
                 <Row>
                     <Col md={7} className="home-header">
                         <h1 style={{ paddingBottom: 15 }} className="heading">
-                            Hi There!{" "}
+                            Welcome to My World!{" "}
                             <span className="wave" role="img" aria-labelledby="wave">
                                 👋🏻
                             </span>
                         </h1>
                         <h2 className="heading-name">
-                            I'M{" "}
-                            <strong className="main-name">Peagah Vieira</strong>
+                            I'm <strong className="main-name">Peagah Vieira</strong>
                         </h2>
-                        <div style={{ padding: 50, textAlign: "left" }}>
+                        <div style={{ paddingLeft: 30, paddingBottom: 50, paddingTop: 10, textAlign: "left" }}>
                             <TypeWriter />
                         </div>
                     </Col>
-
                     <Col md={5} style={{ paddingBottom: 20 }}>
                         <img
                             src={HomeLogo}

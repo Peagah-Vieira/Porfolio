@@ -275,19 +275,19 @@ button:focus {
 }
 
 .home-content {
-    padding: 9rem 0 2rem !important;
+    padding: 6rem 0 2rem !important;
     color: whitesmoke;
     text-align: left;
 }
 
 .heading {
-    font-size: 2.4em !important;
-    padding-left: 50px !important;
+    font-size: 2.6em !important;
+    padding-left: 30px !important;
 }
 
 .heading-name {
-    font-size: 2.5em !important;
-    padding-left: 50px !important;
+    font-size: 2.3em !important;
+    padding-left: 30px !important;
 }
 
 .main-name {
