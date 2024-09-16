@@ -12,11 +12,13 @@ import Resume from './Pages/Resume';
 import './App.css';
 import './style.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import NavbarLayout from './Layouts/NavbarLayout';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <NavbarLayout />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
