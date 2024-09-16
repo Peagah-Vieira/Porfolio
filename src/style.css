@@ -270,8 +270,8 @@ button:focus {
     background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
 }
 
 .home-content {
@@ -287,7 +287,7 @@ button:focus {
 
 .heading-name {
     font-size: 2.5em !important;
-    padding-left: 45px !important;
+    padding-left: 50px !important;
 }
 
 .main-name {
@@ -331,8 +331,8 @@ button:focus {
 
 .home-about-section {
     position: relative;
-    padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
 }
 
 .home-about-description {
