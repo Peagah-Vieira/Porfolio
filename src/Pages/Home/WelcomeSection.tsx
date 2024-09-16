@@ -4,11 +4,7 @@ import HomeLogo from "Assets/home-main.svg"
 import TypeWriter from "Components/TypeWriter";
 import Particle from "Components/Particle";
 
-type props = {
-    devName: string
-}
-
-export default function WelcomeSection({ devName }: props) {
+export default function WelcomeSection() {
     return (
         <Container fluid className="home-section" id="home">
             <Particle />
@@ -23,7 +19,7 @@ export default function WelcomeSection({ devName }: props) {
                         </h1>
                         <h2 className="heading-name">
                             I'M{" "}
-                            <strong className="main-name">{devName}</strong>
+                            <strong className="main-name">Peagah Vieira</strong>
                         </h2>
                         <div style={{ padding: 50, textAlign: "left" }}>
                             <TypeWriter />

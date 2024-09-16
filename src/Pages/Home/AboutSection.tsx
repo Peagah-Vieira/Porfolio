@@ -8,13 +8,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-type props = {
-    githubLink: string,
-    instagramLink: string,
-    linkedinLink: string,
-}
-
-export default function AboutSection({ githubLink, instagramLink, linkedinLink }: props) {
+export default function AboutSection() {
     return (
         <Container fluid className="home-about-section" id="about">
             <Container>
@@ -67,7 +61,7 @@ export default function AboutSection({ githubLink, instagramLink, linkedinLink }
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href={githubLink}
+                                    href={process.env.REACT_APP_GITHUB_LINK}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -77,7 +71,7 @@ export default function AboutSection({ githubLink, instagramLink, linkedinLink }
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href={linkedinLink}
+                                    href={process.env.REACT_APP_LINKEDIN_LINK}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -87,7 +81,7 @@ export default function AboutSection({ githubLink, instagramLink, linkedinLink }
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href={instagramLink}
+                                    href={process.env.REACT_APP_INSTAGRAM_LINK}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"

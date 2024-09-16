@@ -23,7 +23,7 @@ export default function FooterLayout() {
                     <ul className="footer-icons">
                         <li className="social-icons">
                             <a
-                                href="https://github.com/Peagah-Vieira"
+                                href={process.env.REACT_APP_GITHUB_LINK}
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export default function FooterLayout() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/pedro-henrique-vieira-073b62236/"
+                                href={process.env.REACT_APP_LINKEDIN_LINK}
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ export default function FooterLayout() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/pea_gah/"
+                                href={process.env.REACT_APP_INSTAGRAM_LINK}
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
