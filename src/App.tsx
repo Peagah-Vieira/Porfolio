@@ -8,7 +8,7 @@ import {
 import Home from 'Pages/Home/Home';
 import Projects from 'Pages/Projects';
 import About from 'Pages/About/About';
-import Resume from 'Pages/Resume';
+import Resume from 'Pages/Resume/Resume';
 import NavbarLayout from 'Layouts/Navbar/NavbarLayout';
 import FooterLayout from 'Layouts/Footer/FooterLayout';
 import 'App.css';
