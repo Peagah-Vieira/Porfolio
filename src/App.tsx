@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from 'Pages/Home/Home';
 import Projects from 'Pages/Projects';
-import About from 'Pages/About';
+import About from 'Pages/About/About';
 import Resume from 'Pages/Resume';
 import NavbarLayout from 'Layouts/Navbar/NavbarLayout';
 import FooterLayout from 'Layouts/Footer/FooterLayout';
