@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -13,11 +13,23 @@ import NavbarLayout from 'Layouts/Navbar/NavbarLayout';
 import FooterLayout from 'Layouts/Footer/FooterLayout';
 import 'App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Preloader from 'Components/Preloader';
 
 function App() {
+  const [load, upadateLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <Router>
-      <div className="App">
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
         <NavbarLayout />
         <Routes>
           <Route path="/" element={<Home />} />
