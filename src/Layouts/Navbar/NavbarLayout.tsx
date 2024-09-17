@@ -8,7 +8,7 @@ import {
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
 } from "react-icons/ai";
-
+import 'Layouts/Navbar/Navbar.css';
 import { CgFileDocument } from "react-icons/cg";
 
 export default function NavbarLayout() {
