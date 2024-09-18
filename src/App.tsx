@@ -6,14 +6,14 @@ import {
   Navigate
 } from "react-router-dom";
 import Home from 'Pages/Home/Home';
-import Projects from 'Pages/Projects';
+import Projects from 'Pages/Projects/Projects';
 import About from 'Pages/About/About';
 import Resume from 'Pages/Resume/Resume';
 import NavbarLayout from 'Layouts/Navbar/NavbarLayout';
 import FooterLayout from 'Layouts/Footer/FooterLayout';
+import Preloader from 'Components/Preloader';
 import 'App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Preloader from 'Components/Preloader';
 
 function App() {
   const [load, upadateLoad] = useState(true);
