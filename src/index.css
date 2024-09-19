@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 :root {
-  --main-color: #c770f0;
-  --main-color-light: #d88bfa;
-  --main-color-lighter: #e5a7fd;
-  --main-color-dark: #9f4cc7;
-  --main-color-darker: #7a39a0;
+  --main-color: #397FFBFF;
+  --main-color-light: #5A97FDFF;
+  --main-color-lighter: #7DB0FEFF;
+  --main-color-dark: #316ECCFF;
+  --main-color-darker: #295BA6FF;
   --section-background-color: linear-gradient(to bottom left,
       rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904));
-
+      rgba(6, 7, 41, 0.904));
   --image-gradient: linear-gradient(to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863));
+      rgba(17, 16, 16, 0.582),
+      rgba(6, 7, 41, 0.904));
 }
 
 body {
@@ -41,7 +40,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #050513;
   background-image: url(/src/Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;

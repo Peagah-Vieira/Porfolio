@@ -61,7 +61,7 @@
 .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(/src/Assets/home-bg.jpg);
+    background-image: var(--section-background-color) !important;
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 50px !important;
@@ -125,6 +125,7 @@
 
 .home-about-section {
     position: relative;
+    background-image: var(--section-background-color) !important;
     padding-bottom: 50px !important;
     padding-top: 50px !important;
 }

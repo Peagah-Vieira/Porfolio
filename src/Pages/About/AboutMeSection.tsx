@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import laptopImg from "Assets/about.png";
+import laptopImg from "Assets/about.svg";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 

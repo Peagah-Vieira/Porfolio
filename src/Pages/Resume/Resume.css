@@ -49,7 +49,7 @@
 .resume .resume-item .resume-title {
     line-height: 18px;
     font-size: 0.9em;
-    background: #5234795d;
+    background: var(--main-color-darker);
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
