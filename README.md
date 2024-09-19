@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This portfolio front-end project is designed to showcase modern web development skills using React and TypeScript, with a responsive UI built using Bootstrap and custom CSS. The application demonstrates efficient, scalable solutions with reusable components, providing a clean and dynamic user experience across various devices.
 
-## Available Scripts
+#### This repo is functionality complete — PRs and issues welcome! Feel free to contact me in discord: pea_gah
+## Features
 
-In the project directory, you can run:
+- Responsive and mobile-friendly UI
+- Reusable and scalable components
+- Built with React and TypeScript
+- Clean design using Bootstrap and custom CSS
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### To run this project locally, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone the repository:
 
-### `npm test`
+```bash
+git clone https://github.com/Peagah-Vieira/Porfolio.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Switch to the project directory:
 
-### `npm run build`
+```bash
+cd Porfolio
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Copy the example environment file and adjust configurations:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+cp .env.example .env
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install dependencies:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Start the server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can now access the server at http://localhost:3000
+## Environment variables
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `.env` - Environment variables can be set in this file
 
-## Learn More
+***Note*** : You can quickly set the database information and other variables in this file and have the application fully working.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Fork the repository.
+
+- Create a new feature branch (git checkout -b feature/new-feature).
+
+- Commit your changes (git commit -m 'Add new feature').
+
+- Push to the branch (git push origin feature/new-feature).
+
+- Open a pull request.
+
+
+## FAQ
+
+#### 1. Can I use this project for my own portfolio?
+
+Yes, feel free to use it as a base for your personal portfolio projects.
+
+#### 2. How can I report bugs or request features?
+
+You can open an issue on the GitHub repository.
