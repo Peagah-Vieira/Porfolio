@@ -17,17 +17,17 @@ export default function AboutMeSection() {
                     }}
                 >
                     <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                        Get to Know <strong className="purple">Me</strong>
+                        Get to Know <strong className="main-color">Me</strong>
                     </h1>
                     <Card className="quote-card-view">
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <div style={{ textAlign: "justify" }}>
                                     <p>
-                                        Hello everyone, I’m <span className="purple">Peagah Vieira</span> from <span className="purple">Brazil</span>.
+                                        Hello everyone, I’m <span className="main-color">Peagah Vieira</span> from <span className="main-color">Brazil</span>.
                                     </p>
                                     <p>
-                                        Currently, I’m pursuing a degree in System Administration at <span className="purple">Estácio de Sá</span>.
+                                        Currently, I’m pursuing a degree in System Administration at <span className="main-color">Estácio de Sá</span>.
                                     </p>
                                     <p>
                                         I’m passionate about coding, solving complex problems creatively, and developing impactful digital solutions that enhance user experiences.
@@ -50,7 +50,7 @@ export default function AboutMeSection() {
                                     </ul>
                                 </div>
                                 <div>
-                                    <p style={{ color: "rgb(155 126 172)" }}>
+                                    <p className="blockquote-footer">
                                         "My goal is to create things that inspire and make an impact!"{" "}
                                     </p>
                                     <footer className="blockquote-footer">Peagah Vieira</footer>

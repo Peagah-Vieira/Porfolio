@@ -23,7 +23,7 @@ export default function Resume() {
                 <Particle />
                 <section>
                     <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                        My <strong className="purple">Resume</strong>
+                        My <strong className="main-color">Resume</strong>
                     </h1>
                     <Row className="resume">
                         <Document file={pdf} className="d-flex justify-content-center">

@@ -15,7 +15,7 @@ export default function AboutSection() {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{ fontSize: "2.6em" }}>
-                            LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                            LET ME <span className="main-color"> INTRODUCE </span> MYSELF
                         </h1>
                         <div className="home-about-body">
                             <p>
@@ -24,23 +24,23 @@ export default function AboutSection() {
                             <p>
                                 I am proficient in modern web technologies like
                                 <i>
-                                    <b className="purple"> Laravel, React, and TypeScript. </b>
+                                    <b className="main-color"> Laravel, React, and TypeScript. </b>
                                 </i>
                             </p>
                             <p>
                                 My main areas of interest include building &nbsp;
                                 <i>
-                                    <b className="purple">Scalable Web Applications </b> and exploring the potential of{" "}
-                                    <b className="purple">
+                                    <b className="main-color">Scalable Web Applications </b> and exploring the potential of{" "}
+                                    <b className="main-color">
                                         Back-end Development with Python and Laravel.
                                     </b>
                                 </i>
                             </p>
                             <p>
                                 Whenever possible, I apply my passion for creating scalable and high-performance applications using
-                                <b className="purple"> Laravel </b> and
+                                <b className="main-color"> Laravel </b> and
                                 <i>
-                                    <b className="purple">
+                                    <b className="main-color">
                                         {" "} React.
                                     </b>
                                 </i>
@@ -59,7 +59,7 @@ export default function AboutSection() {
                     <Col md={12} className="home-about-social">
                         <h1>FIND ME ON</h1>
                         <p>
-                            Feel free to <span className="purple">connect </span>with me
+                            Feel free to <span className="main-color">connect </span>with me
                         </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">

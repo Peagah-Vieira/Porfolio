@@ -12,7 +12,7 @@ export default function ToolsSection() {
     return (
         <section>
             <h1 className="project-heading">
-                <strong className="purple">Tools</strong> I use
+                <strong className="main-color">Tools</strong> I use
             </h1>
             <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
                 <Col xs={4} md={2} className="tech-icons">

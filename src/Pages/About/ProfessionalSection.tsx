@@ -19,7 +19,7 @@ export default function ProfessionalSection() {
     return (
         <section>
             <h1 className="project-heading">
-                Professional <strong className="purple">Skillset </strong>
+                Professional <strong className="main-color">Skillset </strong>
             </h1>
             <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
                 <Col xs={4} md={2} className="tech-icons">
