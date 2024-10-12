@@ -13,18 +13,18 @@ export default function Projects() {
             <Container>
                 <section>
                     <div>
-                        <h1 className="project-heading">
-                            My Recent <strong className="main-color">Works </strong>
+                        <h1 className="project-heading" style={{ textTransform: "uppercase" }}>
+                            Meus Trabalhos <strong className="main-color">Recentes</strong>
                         </h1>
                         <p style={{ color: "white" }}>
-                            Here are a few projects I've worked on recently.
+                            Aqui estão alguns projetos em que trabalhei recentemente.
                         </p>
                         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                             <Col md={4} className="project-card">
                                 <ProjectCard
                                     imgPath={DjangoDash}
                                     cardTitle="DjangoDash"
-                                    cardDescription="DjangoDash is a CRM built with Django, featuring a sleek and modern design powered by Tailwind CSS. It provides custom authentication, responsive dashboards, and full CRUD functionality, offering an efficient and intuitive solution for managing customer data."
+                                    cardDescription="DjangoDash é um CRM construído com Django, apresentando um design moderno e elegante, impulsionado pelo Tailwind CSS. Ele fornece autenticação personalizada, painéis responsivos e funcionalidade completa de CRUD, oferecendo uma solução eficiente e intuitiva para gerenciar dados de clientes."
                                     githubLink="https://github.com/Peagah-Vieira/DjangoDash"
                                 />
                             </Col>
@@ -32,7 +32,7 @@ export default function Projects() {
                                 <ProjectCard
                                     imgPath={NexaCMS}
                                     cardTitle="NexaCMS"
-                                    cardDescription="NexaCMS is a monolithic CMS built with React and TypeScript on the front-end and Laravel on the back-end. Running in a Docker environment, it ensures easy setup and management while offering a secure, modular content management interface for flexible control."
+                                    cardDescription="NexaCMS é um CMS monolítico construído com React e TypeScript no front-end e Laravel no back-end. Funcionando em um ambiente Docker, garante fácil configuração e gerenciamento, enquanto oferece uma interface de gerenciamento de conteúdo segura e modular para controle flexível."
                                     githubLink="https://github.com/Peagah-Vieira/NexaCMS"
                                 />
                             </Col>

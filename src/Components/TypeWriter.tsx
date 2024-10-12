@@ -6,10 +6,10 @@ export default function TypeWriter() {
     <Typewriter
       options={{
         strings: [
-          "Full-stack Developer",
-          "Laravel Specialist",
-          "React & TypeScript Developer",
-          "Python Enthusiast",
+          "Desenvolvedor Full-stack",
+          "Especialista em Laravel",
+          "Desenvolvedor React e TypeScript",
+          "Criador de Aplicações Escaláveis",
         ],
         autoStart: true,
         loop: true,

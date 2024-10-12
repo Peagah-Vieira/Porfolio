@@ -18,9 +18,9 @@ import {
 export default function ProfessionalSection() {
     return (
         <section>
-            <h1 className="project-heading">
-                Professional <strong className="main-color">Skillset </strong>
-            </h1>
+            <h2 className="project-heading" style={{ textTransform: "uppercase" }}>
+                Habilidades <strong className="main-color">Profissionais</strong>
+            </h2>
             <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
                 <Col xs={4} md={2} className="tech-icons">
                     <DiJavascript1 />  {/* JavaScript */}
@@ -54,6 +54,5 @@ export default function ProfessionalSection() {
                 </Col>
             </Row>
         </section>
-
     )
 }

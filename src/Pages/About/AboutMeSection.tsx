@@ -16,42 +16,42 @@ export default function AboutMeSection() {
                         paddingBottom: "50px",
                     }}
                 >
-                    <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                        Get to Know <strong className="main-color">Me</strong>
+                    <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", textTransform: "uppercase" }}>
+                        ME <strong className="main-color">CONHEÇA</strong>
                     </h1>
                     <Card className="quote-card-view">
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <div style={{ textAlign: "justify" }}>
                                     <p>
-                                        Hello everyone, I’m <span className="main-color">Peagah Vieira</span> from <span className="main-color">Brazil</span>.
+                                        Olá a todos! Sou <span className="main-color">Peagah Vieira</span>, diretamente do <span className="main-color">Brasil</span>.
                                     </p>
                                     <p>
-                                        Currently, I’m pursuing a degree in System Administration at <span className="main-color">Estácio de Sá</span>.
+                                        No momento, estou me aprofundando em Administração de Sistemas na <span className="main-color">Estácio de Sá</span> e trabalhando na <span className="main-color">Zero62</span> como desenvolvedor full-stack.
                                     </p>
                                     <p>
-                                        I’m passionate about coding, solving complex problems creatively, and developing impactful digital solutions that enhance user experiences.
+                                        Sou apaixonado por programação, sempre buscando resolver problemas complexos com criatividade e desenvolver soluções digitais que realmente façam a diferença na vida das pessoas.
                                     </p>
                                     <p>
-                                        Beyond coding, I have a variety of interests that keep me inspired and motivated. Here are a few things I enjoy!
+                                        Além da programação, tenho muitos interesses que me mantêm inspirado e motivado. Aqui estão algumas atividades que adoro!
                                     </p>
                                 </div>
                                 <div>
                                     <ul>
                                         <li className="about-activity">
-                                            <ImPointRight /> Playing Video Games
+                                            <ImPointRight /> Video Games
                                         </li>
                                         <li className="about-activity">
-                                            <ImPointRight /> Writing Poems
+                                            <ImPointRight /> Escrever Poemas
                                         </li>
                                         <li className="about-activity">
-                                            <ImPointRight /> Exploring Technology
+                                            <ImPointRight /> Explorar as Novidades em Tecnologia
                                         </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="blockquote-footer">
-                                        "My goal is to create things that inspire and make an impact!"{" "}
+                                        "Meu objetivo é criar experiências que inspirem e deixem uma marca positiva!"{" "}
                                     </p>
                                     <footer className="blockquote-footer">Peagah Vieira</footer>
                                 </div>
@@ -64,9 +64,9 @@ export default function AboutMeSection() {
                     style={{ paddingTop: "120px", paddingBottom: "50px" }}
                     className="about-img"
                 >
-                    <img src={laptopImg} alt="about" className="img-fluid" />
+                    <img src={laptopImg} alt="sobre" className="img-fluid" />
                 </Col>
             </Row>
         </section>
-    )
+    );
 }

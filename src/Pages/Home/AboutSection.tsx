@@ -2,72 +2,60 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-    AiFillGithub,
-    AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function AboutSection() {
     return (
-        <Container fluid className="home-about-section" id="about">
+        <section className="home-about-section" id="about">
             <Container>
                 <Row>
-                    <Col md={8} className="home-about-description">
-                        <h1 style={{ fontSize: "2.6em" }}>
-                            LET ME <span className="main-color"> INTRODUCE </span> MYSELF
+                    <Col md={8} className="about-description">
+                        <h1 className="about-heading">
+                            DEIXE-ME <span className="main-color">ME APRESENTAR</span>
                         </h1>
-                        <div className="home-about-body">
+                        <div className="about-body">
                             <p>
-                                I discovered my passion for programming and have been honing my skills ever since! 💻
+                                Olá! Sou <span className="main-color">Peagah Vieira</span> e descobri minha paixão por programação, aprimorando minhas habilidades continuamente! 💻
                             </p>
                             <p>
-                                I am proficient in modern web technologies like
+                                Atualmente, trabalho como <strong>Desenvolvedor Full-Stack na Zero62</strong>, onde aplico tecnologias modernas como
                                 <i>
-                                    <b className="main-color"> Laravel, React, and TypeScript. </b>
+                                    <b className="main-color"> Laravel, React e TypeScript.</b>
                                 </i>
                             </p>
                             <p>
-                                My main areas of interest include building &nbsp;
+                                Minhas principais áreas de interesse incluem a construção de &nbsp;
                                 <i>
-                                    <b className="main-color">Scalable Web Applications </b> and exploring the potential of{" "}
-                                    <b className="main-color">
-                                        Back-end Development with Python and Laravel.
-                                    </b>
+                                    <b className="main-color">Aplicações Web Escaláveis</b> e o potencial do{" "}
+                                    <b className="main-color">Desenvolvimento Back-end com Python e Laravel.</b>
                                 </i>
                             </p>
                             <p>
-                                Whenever possible, I apply my passion for creating scalable and high-performance applications using
-                                <b className="main-color"> Laravel </b> and
-                                <i>
-                                    <b className="main-color">
-                                        {" "} React.
-                                    </b>
-                                </i>
-                                &nbsp; I'm always eager to explore new technologies and improve my skills in full-stack development,
-                                embracing every challenge the tech world brings!
+                                Estou sempre ansioso para explorar novas tecnologias e aprimorar minhas habilidades em desenvolvimento full-stack, enfrentando cada desafio que o mundo da tecnologia traz!
                             </p>
                         </div>
                     </Col>
-                    <Col md={4} className="myAvtar">
+                    <Col md={4} className="my-avatar">
                         <Tilt>
-                            <img src={myImg} className="img-fluid" alt="avatar" />
+                            <img src={myImg} className="img-fluid" alt="Avatar de Pedro Henrique" />
                         </Tilt>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={12} className="home-about-social">
-                        <h1>FIND ME ON</h1>
+                    <Col md={12} className="about-social">
+                        <h1>ME ENCONTRE EM</h1>
                         <p>
-                            Feel free to <span className="main-color">connect </span>with me
+                            Sinta-se à vontade para <span className="main-color">conectar-se</span> comigo
                         </p>
-                        <ul className="home-about-social-links">
+                        <ul className="about-social-links">
                             <li className="social-icons">
                                 <a
                                     href={process.env.REACT_APP_GITHUB_LINK}
                                     target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
+                                    rel="noopener noreferrer"
+                                    className="icon-colour home-social-icons"
+                                    aria-label="Meu perfil no GitHub"
                                 >
                                     <AiFillGithub />
                                 </a>
@@ -76,8 +64,9 @@ export default function AboutSection() {
                                 <a
                                     href={process.env.REACT_APP_LINKEDIN_LINK}
                                     target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
+                                    rel="noopener noreferrer"
+                                    className="icon-colour home-social-icons"
+                                    aria-label="Meu perfil no LinkedIn"
                                 >
                                     <FaLinkedinIn />
                                 </a>
@@ -86,8 +75,9 @@ export default function AboutSection() {
                                 <a
                                     href={process.env.REACT_APP_INSTAGRAM_LINK}
                                     target="_blank"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                     className="icon-colour home-social-icons"
+                                    aria-label="Meu perfil no Instagram"
                                 >
                                     <AiFillInstagram />
                                 </a>
@@ -96,6 +86,6 @@ export default function AboutSection() {
                     </Col>
                 </Row>
             </Container>
-        </Container>
-    )
+        </section>
+    );
 }

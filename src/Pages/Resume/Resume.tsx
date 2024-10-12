@@ -22,8 +22,8 @@ export default function Resume() {
             <Container fluid className="resume-section">
                 <Particle />
                 <section>
-                    <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                        My <strong className="main-color">Resume</strong>
+                    <h1 className="project-heading" style={{ paddingBottom: "20px", textTransform: "uppercase" }}>
+                        Meu <strong className="main-color">Currículo</strong>
                     </h1>
                     <Row className="resume">
                         <Document file={pdf} className="d-flex justify-content-center">
@@ -38,7 +38,7 @@ export default function Resume() {
                             style={{ maxWidth: "250px" }}
                         >
                             <AiOutlineDownload />
-                            &nbsp;Download CV
+                            &nbsp;Baixar CV
                         </Button>
                     </Row>
                 </section>

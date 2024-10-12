@@ -11,9 +11,9 @@ import {
 export default function ToolsSection() {
     return (
         <section>
-            <h1 className="project-heading">
-                <strong className="main-color">Tools</strong> I use
-            </h1>
+            <h2 className="project-heading" style={{ textTransform: "uppercase" }}>
+                <strong className="main-color">Ferramentas</strong> que uso
+            </h2>
             <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
                 <Col xs={4} md={2} className="tech-icons">
                     <SiVisualstudiocode />  {/* VSCode */}
@@ -32,6 +32,5 @@ export default function ToolsSection() {
                 </Col>
             </Row>
         </section>
-
     )
 }

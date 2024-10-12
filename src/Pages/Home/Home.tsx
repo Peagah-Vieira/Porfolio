@@ -5,9 +5,9 @@ import "Pages/Home/Home.css";
 
 export default function Home() {
     return (
-        <section>
+        <>
             <WelcomeSection />
             <AboutSection />
-        </section>
+        </>
     )
 }

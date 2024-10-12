@@ -6,14 +6,14 @@ export default function CommitsSection() {
     return (
         <section>
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-                    Days I <strong className="main-color">Code</strong>
-                </h1>
+                <h2 className="project-heading" style={{ paddingBottom: "20px", textTransform: "uppercase" }}>
+                    Dias que <strong className="main-color">Codei</strong>
+                </h2>
                 <GitHubCalendar
                     username="Peagah-Vieira"
                     blockSize={15}
                     blockMargin={5}
-                    color="#c084f5"
+                    color="#397FFBFF"
                     fontSize={16}
                 />
             </Row>
